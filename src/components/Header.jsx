@@ -5,9 +5,31 @@ import profileIcon from "../images/profileIcon.png";
 import cartIcon from "../images/cartIcon.png";
 
 export default function Header() {
+
+  
   return (
     <div className="header">
-      <img src={ logoForeverLiss } alt="logo" id="logo" />
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <a href="#"><li>PERFUME INFANTIL</li></a>
+            <a href="#"><li>SABONETES</li></a>
+            <a href="#"><li>PÓS-BANHO</li></a>
+            <a href="#"><li>ASSADURAS</li></a>
+            <a href="#"><li>HIDRATANTES</li></a>
+            <a href="#"><li>LENÇOS UMEDECIDOS</li></a>
+          </ul>
+         </div>
+       </nav>
+      <a href="#">
+        <img src={ logoForeverLiss } alt="logo" id="logo" />
+      </a>
       <form className="forms">
         <input
             type="text"

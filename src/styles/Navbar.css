@@ -16,3 +16,10 @@
   text-decoration: none;
   color: white;
 }
+
+
+@media only screen and (max-width: 800px) {
+  .navbar-container {
+    display: none;
+  }
+}

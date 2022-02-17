@@ -34,3 +34,10 @@
 .star {
   padding-bottom: 25px;
 }
+
+@media only screen and (max-width: 425px) {
+  .card {
+    width: 180px;
+    margin: 6px;
+  }
+}
