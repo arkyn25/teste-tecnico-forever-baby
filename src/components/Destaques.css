@@ -1,0 +1,29 @@
+.destaques {
+  background-color: #F7B094;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.destaques span {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.d-span1 {
+  color: #FFF;
+}
+.d-span2 {
+  color: #345c7d;
+  text-decoration: underline;
+  text-decoration-color: #F5717F;
+  text-decoration-thickness: 6px;
+}

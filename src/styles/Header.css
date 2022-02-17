@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  align-items: flex-start;
+  background-color: #F7B094;
+  height: 134px;
+}
+
+#logo {
+  margin-left: 29px;
+  margin-top: 29px;
+  height: 85.54px;
+  width: 160px;
+}
+
+.forms {
+  margin-top: 46px;
+  align-items: center;
+  /* position: absolute; */
+  width: fit-content;
+  height: 52px;
+  background: #FFFFFF;
+  border-radius: 3px;   
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 56%;
+  /* bottom: 90%; */
+}
+
+form input, #searchButton {
+  margin-top: 17px;
+  margin-bottom: 19px;
+  display: flex;
+  flex-flow: row nowrap;
+  border: none
+}
+
+form input {
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 247px;
+  
+}
+
+#searchButton {
+  color: #345C7D;
+  margin-right: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#userButtons {
+  background-color: #F5717F;
+  border: none;
+  border-radius: 40px;
+  margin-top: 45px;
+  margin-bottom: 3px;
+  height: 42px;
+  width: 42px;
+}
+
+#profileIcon {
+  height: 20.58px;
+  width: 14.91px;
+}
+
+.userSection {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 53px;
+  width: 150px;
+  
+}
+
+.userSection div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+input::-webkit-input-placeholder {
+  font-style: italic;
+}

@@ -1,0 +1,10 @@
+.carousel div{
+  background-color: rgb(224, 222, 222);
+  height: 380px;
+  width: 100%;
+}
+.carousel {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

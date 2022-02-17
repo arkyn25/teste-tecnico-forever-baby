@@ -1,0 +1,75 @@
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F5717F;
+  height: 187px;
+  width: 100%;
+}
+
+.news-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.news-parent span {
+  padding-top: 20px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+}
+.news-parent p {
+  text-align: center;
+  color: #FFF;
+}
+
+.register {
+  /* margin-left: 257px; */
+  margin: auto;
+  width: fit-content;
+  height: 52px;
+  background: #FFFFFF;
+  border-radius: 3px;   
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.register input, #registerButton {
+  margin-top: 17px;
+  margin-bottom: 19px;
+  display: flex;
+  flex-flow: row nowrap;
+  border: none
+}
+
+.register input {
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 247px;
+}
+
+#registerButton {
+  color: #345C7D;
+  margin-right: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
