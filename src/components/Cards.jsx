@@ -3,6 +3,10 @@ import '../styles/Cards.css';
 import cartIcon from '../images/cartIcon.png';
 
 export default function Cards() {
+
+  const handleClick = () => {
+    alert('Seu produto foi adicionado ao carrinho')
+  }
   return (
     <div className="card-container">
       <div className="card">
@@ -11,7 +15,7 @@ export default function Cards() {
           <h5 class="card-title">Lorem ipsum lorem ipsum</h5>
           <p class="card-text">R$ 99,99</p>
           <img className="star" src="https://cdn.discordapp.com/attachments/772550479057387532/943638864659087360/Group_2.png" alt="" />
-          <button type="button">
+          <button type="button" onClick={handleClick}>
             <img src={ cartIcon } alt="cart icon" />
             ADICIONAR AO CARRINHO 
           </button>
