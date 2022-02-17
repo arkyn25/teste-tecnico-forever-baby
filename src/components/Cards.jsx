@@ -1,5 +1,5 @@
-import React from 'react'
-import './Cards.css'
+import React from 'react';
+import '../styles/Cards.css';
 import cartIcon from '../images/cartIcon.png';
 
 export default function Cards() {

@@ -1,6 +1,7 @@
-import React from 'react'
-import Cards from './Cards'
-import './Destaques.css'
+import React from 'react';
+import Cards from './Cards';
+import '../styles/Destaques.css';
+
 export default function Destaques() {
   return (
     <div className="destaques">

@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  padding-bottom: 36px;
   width: 100%;
 }
 .destaques span {

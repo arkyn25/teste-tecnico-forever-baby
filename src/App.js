@@ -1,5 +1,6 @@
 
 // import './App.css';
+import CopyrightFooter from './components/CopyrightFooter';
 import Destaques from './components/Destaques';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -16,6 +17,7 @@ function App() {
      <Destaques />
      <Newsletter />
      <Footer />
+     <CopyrightFooter />
     </div>
   );
 }

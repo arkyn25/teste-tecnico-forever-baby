@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Slider from 'react-slick';
-import './Hero.css';
+import '../styles/Hero.css';
+
 export default function Hero() {
   const settings = {
     dots: true,

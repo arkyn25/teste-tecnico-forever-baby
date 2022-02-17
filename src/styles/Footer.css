@@ -1,0 +1,48 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: row;
+}
+
+.footer-parent {
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar-footer a {
+  color: #345C7D;
+  text-decoration: none;
+}
+
+.visit-title {
+  margin-top: 20px;
+  color: #345C7D;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.visit-social {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-title {
+  margin-top: 25px;
+  color: #345C7D;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}

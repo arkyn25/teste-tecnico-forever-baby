@@ -1,0 +1,45 @@
+.copyright-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.copyright-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #AAAAAA;
+}
+
+.copyright-parent p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.copyright-title {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.copyright-alert {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+}
