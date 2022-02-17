@@ -27,7 +27,7 @@ export default function Header() {
           </ul>
          </div>
        </nav>
-      <a href="#">
+      <a href="https://www.foreverliss.com.br/">
         <img src={ logoForeverLiss } alt="logo" id="logo" />
       </a>
       <form className="forms">
