@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Newsletter.css';
+import httpClient from '../http-client';
 
 export default function Newsletter() {
   const [email, setEmail] = useState('');
@@ -10,7 +11,17 @@ export default function Newsletter() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setEmail('')
+    const url = 'https://foreverliss1.websiteseguro.com/teste-dev/newsletter.php'
+    const data = JSON.stringify ({
+      "email": email
+    })
+    httpClient
+      .post(url, data)
+      .then((res) => {
+        setEmail('')
+        console.log(res.data);
+      })
+      .catch(err => console.log(err.response.data))
   }
 
   return (
@@ -20,7 +31,7 @@ export default function Newsletter() {
         <p>Cadastre-se agora para não perder nenhuma promoção
         </p>
       </div>
-      <form action="https://foreverliss1.websiteseguro.com/teste-dev/newsletter.php" onSubmit={handleSubmit} method="post"  className="register">
+      <form onSubmit={handleSubmit} className="register">
         <input type="email"
          value={email}
          id="input"

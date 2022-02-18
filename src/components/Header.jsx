@@ -1,11 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Header.css';
 import logoForeverLiss from "../images/logoForeverLiss.png"
 import profileIcon from "../images/profileIcon.png";
 import cartIcon from "../images/cartIcon.png";
 
 export default function Header() {
+  const [input, setInput] = useState('');
+  const [disable, setDisable] = useState(true);
 
+
+  const verifySearch = () => {
+    const format = /[\W_]/;
+    const specialChars = format.test(input);
+    if (input.length < 3 || specialChars) {
+      setDisable(true)
+    } else {
+      setDisable(false)
+    }
+  }
+  const handleChange = ({ target }) => {
+    setInput(target.value);
+    verifySearch();
+  }
   
   return (
     <div className="header">
@@ -34,9 +50,12 @@ export default function Header() {
         <input
             type="text"
             placeholder="Qual o mimo de hoje para o seu anjinho?"
+            onChange={handleChange}
             >
         </input>
-        <button type="submit" id="searchButton">
+        <button type="submit" id="searchButton"
+          disabled={disable}
+        >
             BUSCAR
         </button>
       </form>
